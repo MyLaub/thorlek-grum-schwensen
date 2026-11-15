@@ -1,0 +1,73 @@
+import Link from "next/link";
+import HeaderScroll from "./header_scroll";
+import MobileMenu from "./mobile_header";
+
+export default function Header() {
+  return (
+    <HeaderScroll>
+      <Link href="/" className="py-6 text-lg normal-case tracking-normal md:text-xl font-bold">
+        Thorlek Grum-Schwensen
+      </Link>
+
+      {/* desktop: *:not-last:after sætter et komma efter alle menupunkter undtagen det sidste */}
+      <nav aria-label="Hovedmenu" className="hidden md:block">
+        <ul className="flex font-medium *:py-6 *:not-last:after:mr-[0.60em] *:not-last:after:content-[',']">
+          <li>
+            <Link href="/" className="hover:underline hover:underline-offset-4">
+              Forside
+            </Link>
+          </li>
+
+          {/* Terapi med undermenu, der vises ved hover og tastaturfokus */}
+          <li className="group relative">
+            <Link href="/terapi/tilgang" className="hover:underline hover:underline-offset-4 ">
+              Terapi
+            </Link>
+            <ul className="invisible absolute left-0 top-full space-y-3 whitespace-nowrap bg-[#fdfcfa] pb-10 opacity-0 shadow-[0_0_0_100vmax_#fdfcfa] [clip-path:inset(0_-100vmax)] transition-opacity duration-200 group-hover:visible group-hover:opacity-100 group-has-focus-visible:visible group-has-focus-visible:opacity-100">
+              {" "}
+              <li>
+                <Link href="/terapi/tilgang" className="hover:underline hover:underline-offset-4 ">
+                  Tilgang
+                </Link>
+              </li>
+              <li>
+                <Link href="/terapi/droemmearbejde" className="hover:underline hover:underline-offset-4 ">
+                  Drømmearbejde
+                </Link>
+              </li>
+              <li>
+                <Link href="/terapi/kropsopmaerksomhed" className="hover:underline hover:underline-offset-4 ">
+                  Kropsopmærksomhed
+                </Link>
+              </li>
+              <li>
+                <Link href="/terapi/meditation" className="hover:underline hover:underline-offset-4 ">
+                  Meditation
+                </Link>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <Link href="/ommig" className="hover:underline hover:underline-offset-4 ">
+              Om mig
+            </Link>
+          </li>
+          <li>
+            <Link href="/praktiskinformation" className="hover:underline hover:underline-offset-4 ">
+              Praktisk information
+            </Link>
+          </li>
+          <li>
+            <Link href="/kontakt" className="hover:underline hover:underline-offset-4 ">
+              Kontakt
+            </Link>
+          </li>
+        </ul>
+      </nav>
+
+      {/* mobil: burgermenu */}
+      <MobileMenu />
+    </HeaderScroll>
+  );
+}
