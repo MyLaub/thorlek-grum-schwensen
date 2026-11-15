@@ -82,7 +82,7 @@ export default function Hero() {
       {/* <h1 id="hero-titel" className="text-5xl font-medium leading-none md:col-span-3 md:text-6xl lg:text-7xl">
         Psykoterapi og drømmearbejde
       </h1> */}
-       <h1 id="hero-titel" className="text-4xl  leading-none md:col-span-3 md:text-6xl lg:text-8xl">
+       <h1 id="hero-titel" className="text-4xl  leading-none md:col-span-3 md:text-6xl lg:text-7xl">
         Psykoterapi og drømmearbejde
       </h1>
 
