@@ -67,7 +67,7 @@ export default function Droemmearbejde() {
         id="droemmearbejde"
         label="Drømmearbejde i terapi"
         intro="Om du vil have drømmene med i terapien, er op til dig, men min erfaring er, at de kan være en værdifuld del af arbejdet."
-        billede={{ src: "/assets/images/droemme2.webp", alt: "Portræt af Thorlek Grum-Schwensen" }}
+        billeder={[{ src: "/assets/images/droemme2.webp", alt: "Drømme" }]}
       >
         <Spalte>
           <p>Selvom nattens drømme kan virke gådefulde, kan mange huske en drøm, som har gjort stort indtryk på dem.</p>

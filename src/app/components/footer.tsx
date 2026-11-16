@@ -2,7 +2,8 @@ export default function Footer() {
  
 
   return (
-    <footer className="border-t border-neutral-300 px-6 py-12 text-sm tracking-wide md:px-10 md:py-16">
+    // <footer className="border-t border-neutral-300 px-6 py-12 text-sm tracking-wide md:px-10 md:py-16">
+    <footer className="mx-auto box-content max-w-[1200px] px-6 pb-8 pt-16 md:px-10 md:pt-24 border-t border-neutral-300">
     <div className="flex flex-col gap-y-10 md:flex-row md:justify-between">
 
   <div className="space-y-2">

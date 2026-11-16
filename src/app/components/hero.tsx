@@ -39,8 +39,10 @@ import { Spalte, BredSpalte } from "./sektioner";
 
 export default function Hero() {
   return (
-    <section aria-labelledby="hero-titel" className="-mt-8 grid grid-cols-1 gap-y-8 md:mt-0 md:grid-cols-3 md:gap-x-10 md:gap-y-10">
-      {/* row 1, col 1-3: overskrift og undertekst */}
+    <section aria-labelledby="hero-titel" className="grid grid-cols-1 gap-y-8 md:grid-cols-3 md:gap-x-10 md:gap-y-10">
+      {/* row 1, col 1-3: overskrift og undertekst  
+       */}
+     
       <div className="space-y-6 md:col-span-3">
         <h1 id="hero-titel" className="text-3xl leading-none md:text-5xl lg:text-6xl">
           Psykoterapi og drømmearbejde
@@ -53,7 +55,7 @@ export default function Hero() {
       {/* row 2, col 1-2: fremhævet tekst og spalter i sit eget grid, uafhængigt af billedet */}
       <div className="grid grid-cols-1 gap-y-8 md:col-span-2 md:col-start-1 md:row-start-2 md:grid-cols-2 md:gap-x-10 md:gap-y-10 md:self-start">
         {/* fremhævet, 1 spalte */}
-        <div className="space-y-4 leading-relaxed tracking-wide md:col-span-2 text-lg md:text-xl lg:text-2xl">
+        <div className=" leading-snug tracking-wide md:col-span-2 text-lg md:text-xl lg:text-2xl">
           <p>
             Der kan være mange grunde til at begynde i terapi. Det kan være du står i en akut krise eller er plaget af en svær oplevelse, som går mange år tilbage. Måske er du et godt sted i livet og har mod på at dykke dybere og blive klogere på dig
             selv. Uanset årsagen kan terapi være en stor hjælp til at gribe disse udfordringer an.
