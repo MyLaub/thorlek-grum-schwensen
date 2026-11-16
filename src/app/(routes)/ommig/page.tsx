@@ -33,7 +33,6 @@ export default function OmMig() {
         id="terapeutisk-grundlag"
         label="Terapeutisk grundlag"
         intro="Mit terapeutiske grundlag tager udgangspunkt i kybernetisk psykoterapi, som er en integrativ metode udviklet på Vedfelt Instituttet. Metoden bygger på jungiansk psykoterapi, gestaltterapi, tegneterapi og meditative øvelser og har særligt fokus på det ubevidste og drømmearbejde."
-        venstre={<img src="/assets/images/blomst_stregtegning.svg" alt="" className="mt-16 hidden h-auto md:block md:w-full md:-translate-x-1/4" />}
       >
         <Spalte>
           <p>En vigtig del af min træning har været fire års procesarbejde, som jeg gennemførte i 2026, hos instituttets grundlæggere, Ole og Lene Vedfelt.</p>
