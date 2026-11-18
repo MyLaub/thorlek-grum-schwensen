@@ -46,12 +46,12 @@ export default function MobileMenu() {
               <ul className="mt-3 space-y-3 pl-4">
                 <li><Link href="/terapi/tilgang" onClick={close}>Tilgang</Link></li>
                 <li><Link href="/terapi/droemmearbejde" onClick={close}>Drømmearbejde</Link></li>
-                <li><Link href="/terapi/kropsopmaerksomhed" onClick={close}>Kropsopmærksomhed</Link></li>
+                <li><Link href="/terapi/krop" onClick={close}>Krop</Link></li>
                 <li><Link href="/terapi/meditation" onClick={close}>Meditation</Link></li>
               </ul>
             </li>
             <li><Link href="/ommig" onClick={close}>Om mig</Link></li>
-            <li><Link href="/praktiskinformation" onClick={close}>Praktisk information</Link></li>
+            <li><Link href="/priser" onClick={close}>Priser</Link></li>
             <li><Link href="/kontakt" onClick={close}>Kontakt</Link></li>
           </ul>
         </nav>
