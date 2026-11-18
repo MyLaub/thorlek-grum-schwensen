@@ -1,6 +1,7 @@
 
 import Image from "next/image";
 import { BredSpalte } from "./sektioner";
+import Link from "next/dist/client/link";
 
 export default function Hero() {
   return (
@@ -64,19 +65,25 @@ export default function Hero() {
   </ul>
           <p className="text-sm italic md:text-base">*Jeg vejleder ikke om brug af psykedelika, men hjælper dig terapeutisk med at integrere oplevelsen efter.</p>
         </BredSpalte>
+
+        <Link href="/terapi/tilgang" className="text-sm uppercase tracking-wide transition-opacity hover:opacity-50 md:col-span-2 md:text-base">
+  Læs mere<span className="sr-only"> om min tilgang til terapi</span> <span aria-hidden="true">→</span>
+</Link>
       </div>
 
       {/* row 2, col 3: portræt */}
-      <Image
-        src="/assets/images/thorlek.webp"
-        alt="Portræt af Thorlek Grum-Schwensen"
-        width={800}
-        height={1000}
-        loading="eager"
-        fetchPriority="high"
-        sizes="(min-width: 768px) 27vw, 100vw"
-        className="aspect-4/5 w-full object-cover md:col-start-3 md:row-start-2 md:w-4/5 md:self-start md:justify-self-center lg:w-3/5"
-      />
+ <div className="md:col-start-3 md:row-start-2 md:self-center">
+  <Image
+    src="/assets/images/thorlek.webp"
+    alt="Portræt af Thorlek Grum-Schwensen"
+    width={960}
+    height={1280}
+    loading="eager"
+    fetchPriority="high"
+    sizes="(min-width: 768px) 33vw, 100vw"
+    className="h-auto w-full"
+  />
+</div>
     </section>
   );
 }

@@ -52,11 +52,10 @@ export function BredSpalte({ children }: { children: React.ReactNode }) {
 type StabletSektionProps = {
   id: string;
   label: string;
-  intro?: string;
-billeder?: { src: string; alt: string; width?: number; height?: number }[];
+  intro?: React.ReactNode;
+  billeder?: { src: string; alt: string; width?: number; height?: number }[];
   children: React.ReactNode;
 };
-
 export function StabletSektion({ id, label, intro, billeder, children }: StabletSektionProps) {
   return (
     <section aria-labelledby={id} className="grid grid-cols-1 gap-y-8 md:grid-cols-3 md:gap-x-10 md:gap-y-10">
