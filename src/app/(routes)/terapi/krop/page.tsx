@@ -61,11 +61,11 @@ import type { Metadata } from "next";
 import { StabletSektion, Spalte } from "../../../components/sektioner";
 
 export const metadata: Metadata = {
-  title: "Kropsopmærksomhed | Thorlek Grum-Schwensen",
+  title: "Krop | Thorlek Grum-Schwensen",
   description: "Følelser manifesterer sig i kroppen. Ved at inddrage kroppen i terapien får vi adgang til de følelser, der knytter sig til dine oplevelser.",
 };
 
-export default function Kropsopmaerksomhed() {
+export default function Krop() {
   return (
     <>
       {/* indsat en "skjult" H1 - dette er udelukkende for tilgængelighed/seo-optimering */}
@@ -74,7 +74,7 @@ export default function Kropsopmaerksomhed() {
       {/* billede tilføjes med: billede={{ src: "/assets/images/krop_xyz_tegning.webp", alt: "" }} */}
       <StabletSektion
         id="krop"
-        label="Kropsopmærksomhed"
+        label="Kropspsykoterapi"
         intro="Følelser er ikke kun noget, vi tænker, men noget, der manifesterer sig i kroppen. Det er min erfaring, at hvis tingene kun adresseres fra hovedet, får vi ikke hele historien med og vil primært opnå en intellektuel tolkning af det, der bevæger sig i os. Det kan føles, som om du ikke kommer videre, selvom du bliver ved med at arbejde med det, der plager dig."
       >
         <Spalte>

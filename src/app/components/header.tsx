@@ -35,8 +35,8 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="/terapi/kropsopmaerksomhed" className="hover:underline hover:underline-offset-4">
-                  Kropsopmærksomhed
+                <Link href="/terapi/krop" className="hover:underline hover:underline-offset-4">
+                  Krop
                 </Link>
               </li>
               <li>
@@ -53,8 +53,8 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <Link href="/praktiskinformation" className="hover:underline hover:underline-offset-4">
-              Praktisk information
+            <Link href="/priser" className="hover:underline hover:underline-offset-4">
+              Priser
             </Link>
           </li>
           <li>

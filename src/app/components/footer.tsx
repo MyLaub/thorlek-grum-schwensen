@@ -15,8 +15,8 @@ export default function Footer() {
     <address className="space-y-2 not-italic">
       <h2 className="text-sm uppercase tracking-wide">Kontakt</h2>
       <p>
-        <a href="mailto:thorlekgs@gmail.com" className="hover:opacity-50">
-          thorlekgs@gmail.com
+        <a href="mailto:xyz@gmail.com" className="hover:opacity-50">
+          xyz@gmail.com
         </a>
       </p>
       <p>
@@ -37,7 +37,7 @@ export default function Footer() {
   </div>
 </div>
 
-      <p className="mt-16 text-xs uppercase">© 2026 Thorlek Grum-Schwensen</p>
+      <p className="mt-16 text-xs uppercase">© Thorlek Grum-Schwensen</p>
     </footer>
   );
 }

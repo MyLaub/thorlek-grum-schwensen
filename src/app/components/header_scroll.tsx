@@ -21,11 +21,7 @@ export default function HeaderScroll({ children }: { children: React.ReactNode }
   }, []);
 
   return (
-    // <header
-    //   className={`sticky top-0 z-50 flex items-start justify-between bg-[#fdfcfa] px-6 text-sm uppercase tracking-wide transition-transform duration-300 ease-in-out motion-reduce:transition-none md:px-10 ${hidden ? "-translate-y-full" : ""}`}
-    // >
-    //   {children}
-    // </header>
+  
 
     <header className={`sticky top-0 z-50 bg-background text-sm uppercase tracking-wide transition-transform duration-300 ease-in-out motion-reduce:transition-none ${hidden ? "-translate-y-full" : ""}`}>
   <div className="mx-auto box-content flex max-w-[1200px] items-start justify-between px-6 md:px-10">{children}</div>

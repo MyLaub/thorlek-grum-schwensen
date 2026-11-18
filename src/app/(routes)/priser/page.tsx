@@ -57,14 +57,14 @@ import type { Metadata } from "next";
 import { StabletSektion, BredSpalte } from "../../components/sektioner";
 
 export const metadata: Metadata = {
-  title: "Praktisk information",
+  title: "Priser og praktisk information",
   description: "Priser for terapi i klinikken og online. Mulighed for nedsat pris og en kort, uforpligtende samtale over telefonen.",
 };
 
-export default function PraktiskInformation() {
+export default function Priser() {
   return (
     <div className="space-y-16 md:space-y-16">
-      <h1 className="sr-only">Praktisk information</h1>
+      <h1 className="sr-only">Priser</h1>
 
       <StabletSektion id="priser" label="Priser">
         <BredSpalte>
@@ -95,9 +95,6 @@ export default function PraktiskInformation() {
             Prisen ligger under markedsniveauet, da jeg er på fjerde og sidste år af psykoterapeutuddannelsen. Jeg har dog arbejdet med klienter siden 2025, både i egen praksis og som terapeut for socialt udsatte. I forbindelse med mit terapeutiske
             arbejde modtager jeg jævnligt supervision hos erfarne terapeuter. Det er med til at sikre dig et kvalificeret forløb.
           </p>
-          <p>Ved forudbetaling af et længere forløb på 20–40 sessioner kan en lavere pris aftales.</p>
-          <p>Jeg tilbyder også enkelte forløb til nedsat pris for personer med få midler. Der er et begrænset antal pladser, og der kan forekomme venteliste.</p>
-          <p>Har du spørgsmål, er du altid velkommen til at kontakte mig på mail eller sms. Det er også muligt at aftale en kort, uforpligtende samtale over telefonen, inden du beslutter, om du vil starte.</p>
         </BredSpalte>
       </StabletSektion>
 

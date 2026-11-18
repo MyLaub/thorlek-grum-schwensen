@@ -1,4 +1,3 @@
-
 // import Image from "next/image";
 // import type { Metadata } from "next";
 // import { SidestilletSektion, Spalte } from "../../../components/sektioner";
@@ -62,8 +61,8 @@ export default function Tilgang() {
         label="Tilgang"
         intro="Jeg tilbyder integrativ psykoterapi, der primært kombinerer en dybdepsykologisk tilgang fra jungiansk psykoterapi og en fænomenologisk tilgang fra gestaltterapi."
         billeder={[
-          { src: "/assets/images/Lundingsgade-10.webp", alt: "Terapirummet med to lænestole, whiteboard og malerier" },
-          { src: "/assets/images/Lundingsgade-10-2.webp", alt: "Terapirummet med kurvestol, træbord og lampe" },
+          { src: "/assets/images/Lundingsgade-10.webp", alt: "Terapirummet med to lænestole, whiteboard og malerier", width: 800, height: 600 },
+          { src: "/assets/images/Lundingsgade-10-2.webp", alt: "Terapirummet med kurvestol, træbord og lampe", width: 800, height: 600 },
         ]}
       >
         <Spalte>

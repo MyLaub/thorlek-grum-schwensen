@@ -53,7 +53,7 @@ type StabletSektionProps = {
   id: string;
   label: string;
   intro?: string;
-  billeder?: { src: string; alt: string }[];
+billeder?: { src: string; alt: string; width?: number; height?: number }[];
   children: React.ReactNode;
 };
 
@@ -67,16 +67,28 @@ export function StabletSektion({ id, label, intro, billeder, children }: Stablet
 
       {/* row 2, col 1-2: intro og spalter i sit eget grid, uafhængigt af billederne */}
       <div className="grid grid-cols-1 gap-y-8 md:col-span-2 md:col-start-1 md:row-start-2 md:grid-cols-2 md:gap-x-10 md:gap-y-10 md:self-start">
-        {intro && <p className="text-2xl leading-snug md:col-span-2 md:text-2xl">{intro}</p>}
+        {intro && <p className="text-lg leading-snug md:col-span-2 md:text-lg lg:text-xl">{intro}</p>}
         {children}
       </div>
 
       {/* row 2, col 3: et eller flere billeder under hinanden */}
       {billeder && (
         <div className="space-y-10 md:col-start-3 md:row-start-2 md:self-center">
-          {billeder.map((billede) => (
+          {/* {billeder.map((billede) => (
             <Image key={billede.src} src={billede.src} alt={billede.alt} width={800} height={1000} sizes="(min-width: 768px) 27vw, 100vw" className="mx-auto aspect-4/5 w-full object-cover md:w-4/5 lg:w-3/5" />
-          ))}
+          ))} */}
+
+{billeder.map((billede) => (
+  <Image
+    key={billede.src}
+    src={billede.src}
+    alt={billede.alt}
+    width={billede.width ?? 800}
+    height={billede.height ?? 1000}
+    sizes="(min-width: 768px) 33vw, 100vw"
+    className="h-auto w-full"
+  />
+))}
         </div>
       )}
     </section>
@@ -104,7 +116,7 @@ export function SidestilletSektion({ id, label, intro, venstre, children }: Side
 
       {/* col 2-3: intro og spalter i sit eget grid */}
       <div className="grid grid-cols-1 gap-y-8 md:col-span-2 md:col-start-2 md:row-start-1 md:grid-cols-2 md:gap-x-10 md:gap-y-10 md:self-start">
-        {intro && <p className="font-serif leading-relaxed tracking-wide md:col-span-2 text-lg md:text-xl lg:text-2xl">{intro}</p>}
+        {intro && <p className="font-serif leading-relaxed tracking-wide md:col-span-2 text-lg md:text-lg lg:text-xl">{intro}</p>}
         {children}
       </div>
     </section>
