@@ -74,17 +74,25 @@ export default function Krop() {
       {/* billede tilføjes med: billede={{ src: "/assets/images/krop_xyz_tegning.webp", alt: "" }} */}
       <StabletSektion
         id="krop"
-        label="Kropspsykoterapi"
-        intro="Følelser er ikke kun noget, vi tænker, men noget, der manifesterer sig i kroppen. Det er min erfaring, at hvis tingene kun adresseres fra hovedet, får vi ikke hele historien med og vil primært opnå en intellektuel tolkning af det, der bevæger sig i os. Det kan føles, som om du ikke kommer videre, selvom du bliver ved med at arbejde med det, der plager dig."
-      >
+        label="Krop"
+        intro="Følelser er ikke kun noget, der foregår i hovedet, men også noget, der manifesterer sig i kroppen. Jeg
+vil derfor ofte invitere dig til at mærke, hvad der sker i kroppen, når vi taler om tingene."
+     billeder={[{ src: "/assets/images/krop.webp", alt: "Middelalderlig illustration af et menneske med udstrakte arme i midten af kosmos", width: 960, height: 1416 }]}
+     >
         <Spalte>
-          <p>Målet med at inddrage kroppen er ikke kun at styrke terapien, men at du bliver fri af fortiden og bedre til at mærke dig selv, både i dine relationer og i dit liv i det hele taget. Med en bedre kontakt til det, der rører sig i dig, vil du begynde at opleve krop og psyke som uadskillelige.</p>
-          <p>Jeg vil derfor ofte invitere dig til at mærke ind i kroppen, når vi taler om tingene. Gennem kroppen får vi adgang til de følelser, der knytter sig til dine oplevelser.</p>
+          <p>Det er min erfaring, at hvis tingene kun adresseres fra hovedet, får vi ikke hele historien med og vil
+primært opnå en intellektuel tolkning af det, der bevæger sig i os.</p>
+          <p>Det kan føles, som om du ikke
+kommer videre, selvom du bliver ved med at arbejde med det, der plager dig. Det er ofte først, når
+følelserne mærkes og bearbejdes kropsligt, at det bliver muligt at slippe det, du har siddet fast i.</p>
         </Spalte>
 
         <Spalte>
-          <p>Det er ofte først, når følelserne også mærkes og bearbejdes kropsligt, at det bliver muligt at slippe det, du har siddet fast i.</p>
-          <p>For nogle er det helt naturligt at mærke ind i kroppen, og for andre vil det være mere uvant i starten. Vi starter, hvor du er.</p>
+          <p>Målet med at inddrage kroppen er, at du bliver bedre til at mærke dig selv, både i dine relationer og i dit
+liv i det hele taget. Med en bedre kontakt til det, der rører sig i dig, vil du begynde at opleve krop og
+psyke som uadskillelige.</p>
+          <p>For nogle er det helt naturligt at mærke ind i kroppen, og for andre vil det være mere uvant i starten. Vi
+starter, hvor du er</p>
         </Spalte>
       </StabletSektion>
     </>

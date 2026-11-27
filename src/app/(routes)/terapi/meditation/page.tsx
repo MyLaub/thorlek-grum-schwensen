@@ -16,10 +16,15 @@ export default function Meditation() {
       <StabletSektion
         id="meditation"
         label="Meditation"
-        intro="Det er bestemt ikke en forudsætning for at gå i terapi, at du mediterer, men det kan være et nyttigt supplement til terapien, særligt til at integrere og holde fast i det, du får kontakt med i sessionerne."
-      >
+        intro="Det er bestemt ikke en forudsætning for at gå i terapi, at du mediterer, men det kan være et nyttigt
+supplement til terapien, særligt til at integrere og arbejde videre med det, du får kontakt med i
+sessionerne."
+     billeder={[{ src: "/assets/images/meditation.webp", alt: "Maleri af en mediterende figur foran et træ omgivet af blomster", width: 960, height: 1289 }]}
+     >
         <Spalte>
-          <p>I virkeligheden er det dog meget mere end et terapeutisk redskab.</p>
+          <p>I virkeligheden er meditation dog meget mere end et terapeutisk redskab.</p>
+          <p>Hvis du er interesseret, instruerer jeg gerne i simple meditations- og afspændingsteknikker, som du
+kan bruge i hverdagen uanset erfaring.</p>
 
           {/* obs der er her indsat et link til waking up, midt i <p>. alle links åbner automatisk i ny fane/vindue */}
           <p>
@@ -27,9 +32,12 @@ export default function Meditation() {
             <a href="https://www.wakingup.com" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:opacity-50">
               Waking Up
             </a>{" "}
-            kan jeg give dig et længere gratis abonnement, hvis du har lyst til at meditere ved siden af terapien. Appen tilbyder et bredt udvalg af guidede meditationer, foredrag og samtaler om meditation og åndelig søgen.
+            kan jeg give dig et længere gratis
+abonnement, hvis du har lyst til at meditere ved siden af terapien. Appen tilbyder et bredt udvalg af
+guidede meditationer, foredrag og samtaler om meditation og åndelig søgen.
           </p>
-          <p>Jeg bruger selv den buddhistiske meditationsteknik vipassana og anbefaler følgende retræter, hvis du vil lære den under optimale betingelser:</p>
+          <p>Jeg bruger selv den buddhistiske meditationsteknikvipassana og anbefaler følgende retræter*, hvis du
+vil lære den under optimale betingelser:</p>
           <ul className="list-['-_'] space-y-2 pl-3">
             <li>
               <a href="https://indsigtsmeditation.dk" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:opacity-50">
@@ -39,7 +47,7 @@ export default function Meditation() {
             </li>
             <li>
               <a href="https://www.dhamma.org/da/index" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:opacity-50">
-                Goenka
+               S.N. Goenka
               </a>{" "}
               (Udbydes verden over)
             </li>
@@ -53,8 +61,10 @@ export default function Meditation() {
         </Spalte>
 
         <Spalte>
-          <p>Teknikken varierer en smule mellem de forskellige skoler, men alle kan varmt anbefales. Er du i tvivl om, hvilken du skal vælge, hjælper jeg gerne med at finde den, der passer bedst til dig.</p>
-          <p>Jeg er ikke tilknyttet nogen af stederne, og det er blot en personlig anbefaling, fordi jeg selv har haft glæde af deres retræter.</p>
+          <p>Teknikken varierer en smule mellem de forskellige skoler, men alle kan varmt anbefales. Er du i tvivl
+om, hvilken du skal vælge, hjælper jeg gerne med at finde den, der passer bedst til dig.</p>
+          <p className="text-sm italic md:text-base">*Jeg er ikke tilknyttet nogen af stederne, og dette er blot en anbefaling, fordi jeg selv har haft glæde af
+deres retræter.</p>
         </Spalte>
       </StabletSektion>
     </>

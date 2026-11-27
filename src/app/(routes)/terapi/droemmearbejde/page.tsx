@@ -8,7 +8,7 @@
 
 // export default function Droemmearbejde() {
 //   return (
-  
+
 //     <>
 //       {/* indsat en "skjult" H1 - dette er udelukkende for tilgængelighed/seo-optimering */}
 //       <h1 className="sr-only">Terapeutisk metode</h1>
@@ -24,13 +24,11 @@
 //         <div className="grid grid-cols-1 gap-y-8 md:col-span-2 md:col-start-1 md:row-start-2 md:grid-cols-2 md:gap-x-10 md:gap-y-10 md:self-start">
 //           <p className="font-serif text-2xl leading-snug tracking-wide md:col-span-2 md:text-3xl">Om du vil have drømmene med i terapien, er op til dig, men min erfaring er, at de kan være en værdifuld del af arbejdet.</p>
 
-        
 //           <div className="space-y-6 text-sm leading-relaxed tracking-wide md:max-w-md md:text-base">
 //             <p>Selvom nattens drømme kan virke gådefulde, kan mange huske en drøm, som har gjort stort indtryk på dem.</p>
 //             <p>Drømme er et af de mest effektive redskaber til at skabe kontakt til de ubevidste lag af psyken, og de kan åbne for nye perspektiver og udviklingsmuligheder og give en dybere forståelse af dig selv.</p>
 //           </div>
 
-         
 //           <div className="space-y-6 text-sm leading-relaxed tracking-wide md:max-w-md md:text-base">
 //             <p>I terapien undersøger vi sammen drømmenes sprog og arbejder oplevelsesorienteret med de associationer og følelser, drømmene vækker i dig.</p>
 //             <p>Har du svært ved at huske dine drømme, vil det ofte blive nemmere, når du beslutter dig for at arbejde med dem i terapien. Jeg kan også give dig nogle simple teknikker, der gør dem nemmere at huske.</p>
@@ -66,17 +64,23 @@ export default function Droemmearbejde() {
       <StabletSektion
         id="droemmearbejde"
         label="Drømmearbejde i terapi"
-        intro="Om du vil have drømmene med i terapien, er op til dig, men min erfaring er, at de kan være en værdifuld del af arbejdet."
-        billeder={[{ src: "/assets/images/droemme2.webp", alt: "Drømme" }]}
+        intro="Selvom nattens drømme kan være svære at forstå, har mange oplevet en drøm, som har gjort stort
+indtryk på dem. "
+        billeder={[{ src: "/assets/images/droemme.webp", alt: "Maleri af en hvid og en sort svane, der mødes ved en vandret linje", width: 960, height: 966 }]}
       >
         <Spalte>
-          <p>Selvom nattens drømme kan virke gådefulde, kan mange huske en drøm, som har gjort stort indtryk på dem.</p>
-          <p>Drømme er et af de mest effektive redskaber til at skabe kontakt til de ubevidste lag af psyken, og de kan åbne for nye perspektiver og udviklingsmuligheder og give en dybere forståelse af dig selv.</p>
+          <p>Drømme kan være et af de mest effektive redskaber til at skabe kontakt til det ubevidste og kan åbne
+for nye perspektiver og udviklingsmuligheder og give en dybere forståelse af dig selv og din livshistorie.</p>
+          <p>I terapien undersøger vi sammen drømmenes sprog og arbejder oplevelsesorienteret med de
+associationer og følelser, drømmene vækker i dig.</p>
         </Spalte>
 
         <Spalte>
-          <p>I terapien undersøger vi sammen drømmenes sprog og arbejder oplevelsesorienteret med de associationer og følelser, drømmene vækker i dig.</p>
-          <p>Har du svært ved at huske dine drømme, vil det ofte blive nemmere, når du beslutter dig for at arbejde med dem i terapien. Jeg kan også give dig nogle simple teknikker, der gør dem nemmere at huske.</p>
+          <p>Om du vil have drømmene med i terapien, er op til
+dig, men min erfaring er, at de kan være en værdifuld del af arbejdet.</p>
+          <p>Har du svært ved at huske dine drømme, vil det ofte blive nemmere, når du beslutter dig for at arbejde
+med dem i terapien. Jeg kan også give dig nogle simple teknikker, der gør dem nemmere at huske.</p>
+       
         </Spalte>
       </StabletSektion>
     </>
