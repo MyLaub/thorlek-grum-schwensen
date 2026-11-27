@@ -37,7 +37,7 @@ export default function Footer() {
   </div>
 </div>
 
-      <p className="mt-16 text-xs uppercase">© Thorlek Grum-Schwensen</p>
+      <p className="mt-16 text-xs uppercase">© 2026 Thorlek Grum-Schwensen</p>
     </footer>
   );
 }
