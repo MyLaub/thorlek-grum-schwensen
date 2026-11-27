@@ -11,7 +11,7 @@ export default function Priser() {
     <>
       <h1 className="sr-only">Priser og praktisk information</h1>
 
-      <StabletSektion id="priser" label="Priser" billeder={[{ src: "/assets/images/Priser.webp", alt: "Søerne i København", width: 600, height: 800 }]}>
+      <StabletSektion id="priser" label="Priser" billeder={[{ src: "/assets/images/priser-soerne.webp", alt: "Søerne i København", width: 600, height: 800 }]}>
         <BredSpalte>
           {/* prisliste */}
           <ul className="max-w-xs space-y-3">

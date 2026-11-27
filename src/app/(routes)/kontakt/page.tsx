@@ -15,7 +15,7 @@ export default function Kontakt() {
       <StabletSektion
         id="kontakt"
         label="Kontakt"
-       billeder={[{ src: "/assets/images/Kontakt.webp", alt: "Udsigt over søerne", width: 600, height: 800 }]}
+       billeder={[{ src: "/assets/images/kontakt-soerne.webp", alt: "Udsigt over søerne", width: 600, height: 800 }]}
       >
         <BredSpalte>
           <p>Send mig en mail eller en sms, så vender jeg tilbage hurtigst muligt. Skriv gerne, hvis du ønsker en
