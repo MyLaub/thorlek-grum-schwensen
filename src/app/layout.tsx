@@ -5,13 +5,18 @@ import Footer from "./components/footer";
 import "./globals.css";
 
 const serif = EB_Garamond({ subsets: ["latin"], variable: "--font-eb-garamond" });
-
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.thorlekterapi.dk"),
   title: {
     default: "Thorlek Grum-Schwensen | Psykoterapi og drømmearbejde",
     template: "%s | Thorlek Grum-Schwensen",
   },
-  description: "Integrativ psykoterapi og drømmearbejde på Østerbro i København.",
+  description: "Dybdegående psykoterapi og drømmearbejde på Østerbro i København. Undersøgelse, heling og udvikling.",
+  openGraph: {
+    siteName: "Thorlek Grum-Schwensen",
+    locale: "da_DK",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
