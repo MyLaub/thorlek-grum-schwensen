@@ -40,7 +40,7 @@ gratis forsamtale over telefonen.</p>
 
             <div className="space-y-4">
               <h3 className="text-sm uppercase tracking-wide md:text-base">Adresse</h3>
-              <p>Jeg har klinik i terapeutfællesskabet på Lundingsgade 10 ved søerne på Østerbro. Klinikken ligger ca.
+              <p>Jeg har klinik i terapeutfællesskabet på Lundingsgade 10 st. th. ved søerne på Østerbro. Klinikken ligger ca.
 10 minutters gang fra Trianglen Metrostation.</p>
               <a href="https://www.google.com/maps/search/?api=1&query=Lundingsgade+10,+2100+København+Ø" target="_blank" rel="noopener noreferrer" className="inline-block underline underline-offset-4 hover:opacity-50">
                 Se på kort

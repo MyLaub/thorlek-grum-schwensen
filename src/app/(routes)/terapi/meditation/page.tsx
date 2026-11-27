@@ -38,6 +38,9 @@ guidede meditationer, foredrag og samtaler om meditation og åndelig søgen.
           </p>
           <p>Jeg bruger selv den buddhistiske meditationsteknikvipassana og anbefaler følgende retræter*, hvis du
 vil lære den under optimale betingelser:</p>
+        </Spalte>
+
+        <Spalte>
           <ul className="list-['-_'] space-y-2 pl-3">
             <li>
               <a href="https://indsigtsmeditation.dk" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:opacity-50">
@@ -58,9 +61,6 @@ vil lære den under optimale betingelser:</p>
               (Thailand)
             </li>
           </ul>
-        </Spalte>
-
-        <Spalte>
           <p>Teknikken varierer en smule mellem de forskellige skoler, men alle kan varmt anbefales. Er du i tvivl
 om, hvilken du skal vælge, hjælper jeg gerne med at finde den, der passer bedst til dig.</p>
           <p className="text-sm italic md:text-base">*Jeg er ikke tilknyttet nogen af stederne, og dette er blot en anbefaling, fordi jeg selv har haft glæde af

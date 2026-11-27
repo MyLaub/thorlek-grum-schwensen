@@ -29,7 +29,7 @@ export default function Footer() {
     <div className="space-y-2">
       <h2 className="text-sm uppercase tracking-wide">Adresse</h2>
       <p>
-        Lundingsgade 10
+        Lundingsgade 10 st. th.
         <br />
         2100 København Ø
       </p>

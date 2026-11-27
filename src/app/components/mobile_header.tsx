@@ -54,6 +54,7 @@ export default function MobileMenu() {
             <li><Link href="/priser" onClick={close}>Priser</Link></li>
             <li><Link href="/kontakt" onClick={close}>Kontakt</Link></li>
           </ul>
+          
         </nav>
       )}
     </div>

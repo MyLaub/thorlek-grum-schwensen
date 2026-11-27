@@ -54,7 +54,7 @@ kropspsykoterapi, tegneterapi og meditative øvelser og har særligt fokus på d
 drømmearbejde.
     </>
   }
-  billeder={[{ src: "/assets/images/terapeutisk-grundlag.webp", alt: "Skovsti i en bøgeskov med efterårsfarvede blade", width: 1200, height: 1600 }]}
+  billeder={[{ src: "/assets/images/terapeutisk-grundlag.webp", alt: "Skovsti i en bøgeskov med efterårsfarvede blade", width: 1000, height: 1250 }]}
 >
         <Spalte>
           <p>En vigtig del af min træning har været fire års procesarbejde, som jeg afsluttede i 2026, hos instituttets
